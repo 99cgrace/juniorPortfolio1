@@ -1,44 +1,10 @@
-/* General */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#magazine{
+	width: 800px;
+	height: 400px;
 }
-
-body {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: sans-serif;
-    background-color: #dac400;
+#magazine .turn-page{
+	background-color:#ccc;
 }
-
-/* Button */
-button {
-    border: none;
-    background-color: transparent;
-    margin: 10px;
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-
-button:focus {
-    outline: none;
-}
-
-button:hover i {
-    color: rgb(102, 102, 102);
-}
-
-i {
-    color: gray;
-    font-size: 4em;
-}
-
-/* Book */
-.book {
     width: 350px;
     height: 500px;
     position: relative;
