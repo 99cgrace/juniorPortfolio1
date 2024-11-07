@@ -107,10 +107,9 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
-html, body {
-    cursor: url("cursor.ico"), default;
-    /* just change the cursor.ico path to your location */
 
 #b1 p {
     margin-bottom: 20px;
 }
+
+cursor: url('cursor.cur'),default;
