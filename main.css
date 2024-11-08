@@ -26,7 +26,7 @@ h1{
 }
 
 #abtMeHeading{
-  color: #8ab4ea;
+  color: #fffff;
   font-size: 40px;
 }
 
@@ -44,9 +44,27 @@ h1{
   font-style: oblique;
   padding-top: 0px;
   line-height: 20px;
+  box-shadow: 1px 3px 30px 0px #a4c5e5;
+  
 }
 #desc {
  padding-left: 450px;
   display: block;
   text-align: left;
+}
+
+.cfus {
+  padding: 0px;
+  font-size: 30px;
+  width: 700px;
+  height: 300px;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.buttons{
+  width: 200px;
+  height: 80px;
+  
 }
