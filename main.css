@@ -70,9 +70,9 @@ h1{
 	height: 30px;
 	overflow: hidden;
 	width: 700px;
-	display: grid;
-	 grid-template-columns:  1fr ;
-  justify-self: center;
+	display: flex;
+	grid-template-columns:  1fr ;
+        justify-self: center;
 	align-self: center;
 	transition: height 4s;
 	display:block;
